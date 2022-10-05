@@ -4,7 +4,7 @@ return [
     'adminEmail' => 'admin@example.com',
     'senderEmail' => 'noreply@example.com',
     'senderName' => 'Example.com mailer',
-    'base_url'=>'http://localhost/yii/d29/web/',
+    'base_url'=>'http://localhost/yii/fud/web/',
     'seller_email'=>'help.alizain@gmail.com',
 
     // SMTP Details

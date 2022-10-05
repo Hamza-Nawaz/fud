@@ -1,7 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b1a419b-1487-430e-af96-d44b966cf3b2" name="Changes" comment="Fud Start" />
+    <list default="true" id="8b1a419b-1487-430e-af96-d44b966cf3b2" name="Changes" comment="Fud Start">
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/accordions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/alerts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/c3/c3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/calendar/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/calendar/fullcalendar.print.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/chosen/bootstrap-chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/chosen/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/code-editor/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/code-editor/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/colorpicker/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/data-table/bootstrap-editable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/data-table/bootstrap-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/datapicker/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/datapicker/datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/dropzone/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/duallistbox/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/editor/bootstrap-editable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/editor/datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/editor/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/editor/x-editor-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/form/all-type-forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/form/themesaller-forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/ionRangeSlider/sprite-skin-flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/meanmenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/metisMenu/metisMenu-vertical.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/metisMenu/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/modals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/morrisjs/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/nalika-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/notifications/Lobibox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/notifications/notifications.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/owl.transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/preloader/preloader-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/scrollbar/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/summernote/fonts/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/summernote/fonts/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/summernote/fonts/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/summernote/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/touchspin/jquery.bootstrap-touchspin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/tree-viewer/32px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/tree-viewer/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/css/tree-viewer/tree-viewer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/nalika.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/nalika.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/fonts/nalika.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/blog-details/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/blog-details/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/contact/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/contact/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/contact/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/contact/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/contact/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/cropper/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/cropper/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/green1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/logo/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/logo/logosn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/16-home_default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/21-home_default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/5-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/6-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/7-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/90-home_default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/new-product/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/notification/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/notification/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/notification/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/notification/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/notification/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/notification/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/notification/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/product/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/product/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/product/bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/product/bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/img/product/bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/c3-charts/c3-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/c3-charts/c3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/c3-charts/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/calendar/fullcalendar-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/calendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/calendar/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/chart/jquery.peity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/chart/peity-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/charts/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/charts/area-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/charts/bar-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/charts/line-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/charts/rounded-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/chosen/chosen-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/chosen/chosen.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/code-editor/code-editor-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/code-editor/code-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/code-editor/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/colorpicker/color-picker-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/colorpicker/jquery.spectrum.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/counterup/counterup-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/counterup/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/counterup/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/cropper/cropper-actice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-map/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-map/data-maps-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-map/datamaps.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-map/topojson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-table/bootstrap-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-table/bootstrap-table-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-table/bootstrap-table-export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-table/bootstrap-table-resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-table/bootstrap-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-table/colResizable-1.5.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-table/data-table-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/data-table/tableExport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/datapicker/datepicker-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/duallistbox/duallistbox.active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/duallistbox/jquery.bootstrap-duallistbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/e-payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/editable/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/editable/bootstrap-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/editable/jquery.mockjax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/editable/mock-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/editable/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/editable/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/editable/xediable-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/flot/curvedLines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/flot/flot-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/flot/jquery.flot.orderBars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/google.maps/google.maps-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/icheck/icheck-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/icheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/input-mask/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/ionRangeSlider/ion.rangeSlider.active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/jquery-price-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/jquery.meanmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/jquery.payform.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/jquery.scrollUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/knob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/knob/knob-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/metisMenu/metisMenu-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/metisMenu/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/morrisjs/morris-active-pro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/morrisjs/morris-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/morrisjs/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/morrisjs/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/notifications/Lobibox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/notifications/notification-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/password-meter/password-meter-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/password-meter/pwstrength-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/password-meter/zxcvbn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/pdf/jquery.media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/pdf/pdf-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/peity/jquery.peity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/peity/peity-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/rangle-slider/jquery-ui-1.10.4.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/rangle-slider/jquery-ui-touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/rangle-slider/rangle-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/scrollbar/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/scrollbar/mCustomScrollbar-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/select2/select2-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/sparkline/jquery.charts-sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/sparkline/sparkline-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/summernote/summernote-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/summernote/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/touchspin/jquery.bootstrap-touchspin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/touchspin/touchspin-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/tree-line/jstree.active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/tree-line/jstree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/wizard/jquery.steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/wizard/steps-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_dark-version.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_dropup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_tilt.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_tooltips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_utilities-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_color-bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_stacks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/helpers/_vr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_backdrop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/cards/card-background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/cards/card-carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/custom/_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/custom/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/forms/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/forms/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/forms/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/mixins/_colored-shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/mixins/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/mixins/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/plugins/free/_flatpickr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/plugins/free/_nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/plugins/free/_perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/plugins/free/_prism.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/plugins/free/plugins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_cards-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_choices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_dark-version.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_full-calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_misc-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_utilities-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/scss/argon-dashboard/variables/_virtual-reality.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asset_1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c53cc122c9.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c53cf523c6.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c53cf681d5.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5410d0efb.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c542e76c08.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5458c1229.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c546daf5c4.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5493b655c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54a869769.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54a89a0e5.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54a93073e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54a953124.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54b100dcd.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54b476de3.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54b4885f0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54b4a5377.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54c02f95c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c54f9b1a72.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5509dc76d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c550e82d61.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c552af24e3.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c552b2450b.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5531d7e03.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5535baf3e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5535d3099.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c553bb6aa5.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c553fddf3c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c559e5108d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c55dfaea12.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c55fc971d0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5610d4d7e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c56199c7bc.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c561fde7d3.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c56235bb17.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c562375480.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5625632d4.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5627a2b26.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5627c0023.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c56293908d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c562ec739a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c562ee398d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5631d91b9.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c563618436.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c56362d220.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c564685a83.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5649e4959.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c564bb2e12.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c565203780.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c5656520eb.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c565ad82d5.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c7b8a33319.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c7b8a5d0d3.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c7b8d00095.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c7b9329546.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c7c5c6b59c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c7c60715a0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c7c60a144b.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/633c7c658c9ac.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/base_01.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/base_01.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +569,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2FcWcR5QG1d3PZuYhEtjRHQiJxD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -126,7 +582,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/yii/d29/views/user&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/yii/fud/web/asset_1&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -134,9 +590,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yii\fud\web\asset_1" />
+      <recent name="C:\xampp\htdocs\yii\fud\web" />
+      <recent name="C:\xampp\htdocs\yii\fud\web\asset_01" />
       <recent name="C:\xampp\htdocs\yii\d29\views\user" />
       <recent name="C:\xampp\htdocs\yii\d29\web\asset_01\img\small-logos" />
-      <recent name="C:\xampp\htdocs\yii\d29\web\asset_01" />
     </key>
   </component>
   <component name="RunManager">
@@ -168,6 +626,8 @@
       <workItem from="1664912174928" duration="463000" />
       <workItem from="1664912759947" duration="90000" />
       <workItem from="1664912874207" duration="668000" />
+      <workItem from="1664958472238" duration="2287000" />
+      <workItem from="1664964017709" duration="10194000" />
     </task>
     <task id="LOCAL-00001" summary="D29 Finished">
       <created>1664910173977</created>

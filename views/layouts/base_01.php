@@ -37,405 +37,419 @@ AppAsset::register($this);
         <script src="https://js.pusher.com/beams/1.0/push-notifications-cdn.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+
+
+
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dashboard V.1 | Nalika - Material Admin Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- favicon
+            ============================================ -->
+        <link rel="shortcut icon" type="image/x-icon" href="<?=yii::$app->params["base_url"]?>asset_1/img/favicon.ico">
+        <!-- Google Fonts
+            ============================================ -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+        <!-- Bootstrap CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/bootstrap.min.css">
+        <!-- Bootstrap CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/font-awesome.min.css">
+        <!-- nalika Icon CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/nalika-icon.css">
+        <!-- owl.carousel CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/owl.carousel.css">
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/owl.theme.css">
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/owl.transitions.css">
+        <!-- animate CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/animate.css">
+        <!-- normalize CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/normalize.css">
+        <!-- meanmenu icon CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/meanmenu.min.css">
+        <!-- main CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/main.css">
+        <!-- morrisjs CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/morrisjs/morris.css">
+        <!-- mCustomScrollbar CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/scrollbar/jquery.mCustomScrollbar.min.css">
+        <!-- metisMenu CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/metisMenu/metisMenu.min.css">
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/metisMenu/metisMenu-vertical.css">
+        <!-- calendar CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/calendar/fullcalendar.min.css">
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/calendar/fullcalendar.print.min.css">
+        <!-- style CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/style.css">
+        <!-- responsive CSS
+            ============================================ -->
+        <link rel="stylesheet" href="<?=yii::$app->params["base_url"]?>asset_1/css/responsive.css">
+        <!-- modernizr JS
+            ============================================ -->
+        <script src="<?=yii::$app->params["base_url"]?>asset_1/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body class="d-flex flex-column h-100 g-sidenav-show   bg-gray-100">
-<?php $this->beginBody() ?>
+   
 
-<div class="min-height-300 bg-primary position-absolute w-100"></div>
-<aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 "id="sidenav-main">
-    <div class="sidenav-header">
-        <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none"aria-hidden="true"id="iconSidenav"></i>
-        <a class="navbar-brand m-0"href="https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html "target="_blank">
 
-            <span class="ms-1 font-weight-bold">D29 Sender Store</span>
-        </a>
+
+    <body>
+    <?php $this->beginBody() ?>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="left-sidebar-pro">
+        <nav id="sidebar" class="">
+            <div class="sidebar-header">
+                <a href="index.html"><img class="main-logo" src="<?=yii::$app->params["base_url"]?>asset_1/img/logo/logo.png" alt="" /></a>
+                <strong><img src="<?=yii::$app->params["base_url"]?>asset_1/img/logo/logosn.png" alt="" /></strong>
+            </div>
+            <?php if(\app\models\ShopUsers::is_buyer() && \app\models\ShopUsers::is_LoggedIn()){?>
+                <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                    <nav class="sidebar-nav left-sidebar-menu-pro">
+                        <ul class="metismenu" id="menu1">
+
+                            <li class="active">
+                                <a class="has-arrow" href="index.html">
+                                    <i class="icon nalika-home icon-wrap"></i>
+                                    <span class="mini-click-non">Smtps</span>
+                                </a>
+                                <ul class="submenu-angle" aria-expanded="true">
+                                    <li><a title="Ionos" href="<?=Yii::$app->params['base_url']?>account/smtp-ionos"><span class="mini-sub-pro">Ionos</span></a></li>
+                                    <li><a title="Rackspace" href="<?=Yii::$app->params['base_url']?>account/smtp-rackspace"> <span class="mini-sub-pro">Rackspace</span></a></li>
+                                    <li><a title="Inbox.lv" href="<?=Yii::$app->params['base_url']?>account/smtp-inboxlv">Inbox.lv</span></a></li>
+                                    <li><a title="GMX" href="<?=Yii::$app->params['base_url']?>account/smtp-gmx"><span class="mini-sub-pro">GMX</span></a></li>
+                                    <li><a title="Office 365" href="<?=Yii::$app->params['base_url']?>account/smtp-office365"><span class="mini-sub-pro">Office 365</span></a></li>
+                                    <li><a title="Strato" href="<?=Yii::$app->params['base_url']?>account/smtp-strato"><span class="mini-sub-pro">Strato</span></a></li>
+                                    <li><a title="Sendgrid" href="<?=Yii::$app->params['base_url']?>account/smtp-sendgrid"><span class="mini-sub-pro">Sendgrid</span></a></li>
+                                    <li><a title="Big Lobe" href="<?=Yii::$app->params['base_url']?>account/smtp-biglobe"><span class="mini-sub-pro">Biglobe</span></a></li>
+                                    <li><a title="All Webmails" href="<?=Yii::$app->params['base_url']?>account/smtps"><span class="mini-sub-pro">All Smtps</span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Web mails</span></a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li><a title="Ionos" href="<?=Yii::$app->params['base_url']?>/account/webmails-ionos"><span class="mini-sub-pro">Ionos</span></a></li>
+                                    <li><a title="Zimbra" href="<?=Yii::$app->params['base_url']?>/account/webmails-zimbra">Zimbra</span></a></li>
+                                    <li><a title="Rackspace" href="<?=Yii::$app->params['base_url']?>/account/webmails-rackspace">Rackspace</span></a></li>
+                                    <li><a title="Strato" href="<?=Yii::$app->params['base_url']?>/account/webmails-starto">Strato</span></a></li>
+                                    <li><a title="T-Online" href="<?=Yii::$app->params['base_url']?>/account/webmails-t-online"><span class="mini-sub-pro">T-Online</span></a></li>
+                                    <li><a title="Kagoya" href="<?=Yii::$app->params['base_url']?>/account/webmails-kagoya"><span class="mini-sub-pro">Kagoya</span></a></li>
+                                    <li><a title="Biglobe JP" href="<?=Yii::$app->params['base_url']?>/account/webmails-biglobejp"><span class="mini-sub-pro">Biglobe JP</span></a></li>
+                                    <li><a title="Aruba" href="<?=Yii::$app->params['base_url']?>/account/webmails-aruba"><span class="mini-sub-pro">Aruba</span></a></li>
+                                    <li><a title="All Webmails" href="<?=Yii::$app->params['base_url']?>/account/webmails"><span class="mini-sub-pro">All Webmails</span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">Hosts</span></a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li><a title="Shell" href="<?=Yii::$app->params['base_url']?>/account/shells"><span class="mini-sub-pro">Shell</span></a></li>
+                                    <li><a title="C-Panels" href="<?=Yii::$app->params['base_url']?>/account/cpanel"><span class="mini-sub-pro">C-Panels</span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-pie-chart icon-wrap"></i> <span class="mini-click-non">Tools & Software</span></a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li><a title="Senders" href="<?=Yii::$app->params['base_url']?>/softwares-tools/senders"><span class="mini-sub-pro">Senders</span></a></li>
+                                    <li><a title="Verifiers" href="<?=Yii::$app->params['base_url']?>/softwares-tools/verifiers"><span class="mini-sub-pro">Verifiers</span></a></li>
+                                    <li><a title="Others" href="<?=Yii::$app->params['base_url']?>/softwares-tools/senders"><span class="mini-sub-pro">Others</span></a></li>
+                                    <li><a title="Alls" href="<?=Yii::$app->params['base_url']?>/softwares-tools/index"><span class="mini-sub-pro">Alls</span></a></li>
+                                </ul>
+                            </li><li><a title="Software & Licence" href="<?=Yii::$app->params['base_url']?>tools-license/index"> <span class="mini-sub-pro">Software & Licence</span></a></li>
+                            <li><a title="RDP Restart" href="<?=Yii::$app->params['base_url']?>rdp/index"><span class="mini-sub-pro">RDP Restart</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            <?php } elseif(\app\models\ShopUsers::is_LoggedIn() && \app\models\ShopUsers::is_seller()){ ?>
+                <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                    <nav class="sidebar-nav left-sidebar-menu-pro">
+                        <ul class="metismenu" id="menu1">
+                            <li><a title="Software & Licence" href="<?=Yii::$app->params['base_url']?>user/index"> <span class="mini-sub-pro">Users</span></a></li>
+                            <li>
+                                <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-pie-chart icon-wrap"></i> <span class="mini-click-non">Tools & Software</span></a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li><a title="Senders" href="<?=Yii::$app->params['base_url']?>/softwares-tools/senders"><span class="mini-sub-pro">Senders</span></a></li>
+                                    <li><a title="Verifiers" href="<?=Yii::$app->params['base_url']?>/softwares-tools/verifiers"><span class="mini-sub-pro">Verifiers</span></a></li>
+                                    <li><a title="Others" href="<?=Yii::$app->params['base_url']?>/softwares-tools/senders"><span class="mini-sub-pro">Others</span></a></li>
+                                    <li><a title="Alls" href="<?=Yii::$app->params['base_url']?>/softwares-tools/index"><span class="mini-sub-pro">Alls</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a title="Software & Licence" href="<?=Yii::$app->params['base_url']?>tools-license/index"> <span class="mini-sub-pro">Software & Licence</span></a></li>
+                            <li><a title="RDP Restart" href="<?=Yii::$app->params['base_url']?>rdp/index"><span class="mini-sub-pro">RDP Restart</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            <?php } elseif (\app\models\ShopUsers::is_LoggedIn() && \app\models\ShopUsers::is_support()){  ?>
+                <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                    <nav class="sidebar-nav left-sidebar-menu-pro">
+                        <ul class="metismenu" id="menu1">
+
+
+                            <li><a title="Software & Licence" href="<?=Yii::$app->params['base_url']?>/report/index"> <span class="mini-sub-pro">Reports</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            <?php } ?>
+
+        </nav>
     </div>
-    <hr class="horizontal dark mt-0">
-    <div class="collapse navbar-collapse  w-auto "id="sidenav-collapse-main">
-        <?php if(\app\models\ShopUsers::is_buyer() && \app\models\ShopUsers::is_LoggedIn()){?>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>account/smtps">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i  class="ni ni-send text-primary text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Smtps</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>/account/webmails">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="ni ni-email-83 text-warning text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Webmails</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>/account/shells">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Shells</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>/account/cpanel">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="ni ni-app text-info text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">cPanels</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>/softwares-tools/index">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="ni ni-settings text-danger text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Tools & Software</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>tools-license/index" >
-                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-badge text-primary text-sm opacity-10"></i>
+    <!-- Start Welcome area -->
+    <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                        <a href="index.html"><img class="main-logo" src="<?=yii::$app->params["base_url"]?>asset_1/img/logo/logo.png" alt="" /></a>
                     </div>
-                    <span class="nav-link-text ms-1">Software license</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>rdp/index">
-                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-ui-04 text-success text-sm opacity-10"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">RDP Restart</span>
-                    </a>
-                </li>
-            </ul>
-        <?php } elseif(\app\models\ShopUsers::is_LoggedIn() && \app\models\ShopUsers::is_seller()){ ?>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>user/index">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i  class="ni ni-single-02 text-primary text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Users</span>
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>/softwares-tools/index">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="ni ni-settings text-danger text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Tools & Software</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="<?=Yii::$app->params['base_url']?>tools-license/index">
-                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-badge text-primary text-sm opacity-10"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">Software license</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link "href="<?=Yii::$app->params['base_url']?>rdp/index">
-                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-ui-04 text-success text-sm opacity-10"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">RDP Restart</span>
-                    </a>
-                </li>
-            </ul>
-        <?php } elseif (\app\models\ShopUsers::is_LoggedIn() && \app\models\ShopUsers::is_support()){  ?>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active"href="<?=Yii::$app->params['base_url']?>/report/index"">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i  class="ni ni-books text-primary text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Reports</span>
-                    </a>
-                </li>
-
-        <?php } ?>
-
-
-    </div>
-    <div class="sidenav-footer mx-3 ">
-        <div class="card card-plain shadow-none"id="sidenavCard">
-            <img class="w-50 mx-auto"src="<?=yii::$app->params["base_url"]?>asset_01/img/illustrations/icon-documentation.svg"alt="sidebar_illustration">
-            <div class="card-body text-center p-3 w-100 pt-0">
-                <div class="docs-info">
-                    <h6 class="mb-0">Need help?</h6>
-                    <p class="text-xs font-weight-bold mb-0">Contact us : </p>
                 </div>
             </div>
         </div>
-        <a href="https://icq.im/d29admin"target="_blank"class="btn btn-dark btn-sm w-100 mb-3">Add to ICQ</a>
-        <a class="btn btn-primary btn-sm mb-0 w-100"href="https://t.me/d29sender"type="button">Add to Telegram</a>
-    </div>
-</aside>
-<main class="main-content position-relative border-radius-lg ">
-    <!-- Navbar -->
-    <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl "id="navbarBlur"data-scroll="false">
-        <div class="container-fluid py-1 px-3">
-            <nav aria-label="breadcrumb">
-            </nav>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4"id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <div class="input-group">
-                    </div>
-                </div>
-                <ul class="navbar-nav  justify-content-end">
-                    <li class="nav-item d-xl-none ps-3 d-flex align-items-center" style="padding: 20px">
-                        <a href="javascript:;"class="nav-link text-white p-0"id="iconNavbarSidenav">
-                            <div class="sidenav-toggler-inner">
-                                <i class="sidenav-toggler-line bg-white"></i>
-                                <i class="sidenav-toggler-line bg-white"></i>
-                                <i class="sidenav-toggler-line bg-white"></i>
+        <div class="header-advance-area">
+            <div class="header-top-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="header-top-wraper">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                                        <div class="menu-switcher-pro">
+                                            <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
+                                                <i class="icon nalika-menu-task"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
+                                        <div class="header-top-menu tabl-d-n hd-search-rp">
+                                            <div class="breadcome-heading">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <?php if(\app\models\ShopUsers::is_buyer() && \app\models\ShopUsers::is_LoggedIn()){?>
+                                        <div class="header-right-info" style="margin-top: 15px">
+                                            <span style="padding: 3px"><a href="https://icq.im/mr_coder@inbox.ru" class="btn btn-success btn-sm active" role="button" aria-pressed="true">Add on ICQ<a></span>
+                                            <span style="padding: 3px"><a href="https://t.me/fudsender" class="btn btn-info btn-sm active" role="button" aria-pressed="true">Add on Telegram<a></span>
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                <li class="nav-item">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                        <i class="icon nalika-user"></i>
+                                                        <span class="admin-name">Fud Sender</span>
+                                                    </a>
+                                                    <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                        <li><a href="<?=Yii::$app->params['base_url']?>user-balance/add-balance"><span class="icon nalika-home author-log-ic"></span>Your Balance(  <span class="badge badge-primary text-white"><?=\app\models\WebUsersBalance::check_balance(); ?></span>)</a>
+                                                        </li>
+                                                        <li><a href="<?=Yii::$app->params['base_url']?>/orders/index"><span class="icon nalika-user author-log-ic"></span>Your Order</a>
+                                                        </li>
+                                                        <li><a href="<?=Yii::$app->params['base_url']?>/user/change-password"><span class="icon nalika-diamond author-log-ic"></span>Change Password</a>
+                                                        </li>
+                                                        <li><a href="<?=Yii::$app->params['base_url']?>user/logout"><span class="icon nalika-unlocked author-log-ic"></span>Log Out</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <?php } elseif(\app\models\ShopUsers::is_LoggedIn() && \app\models\ShopUsers::is_seller()){ ?>
+                                            <div class="header-right-info" style="margin-top: 15px">
+                                                <span style="padding: 3px"><a href="https://icq.im/mr_coder@inbox.ru" class="btn btn-success btn-sm active" role="button" aria-pressed="true">Add on ICQ<a></span>
+                                                <span style="padding: 3px"><a href="https://t.me/fudsender" class="btn btn-info btn-sm active" role="button" aria-pressed="true">Add on Telegram<a></span>
+                                                <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                    <li class="nav-item">
+                                                        <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                            <i class="icon nalika-user"></i>
+                                                            <span class="admin-name">Fud Sender</span>
+                                                        </a>
+                                                        <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                            <li><a href="<?=Yii::$app->params['base_url']?>/orders/index"><span class="icon nalika-user author-log-ic"></span>All Order</a>
+                                                            </li>
+                                                            <li><a href="<?=Yii::$app->params['base_url']?>/user/change-password"><span class="icon nalika-diamond author-log-ic"></span>Change Password</a>
+                                                            </li>
+                                                            <li><a href="<?=Yii::$app->params['base_url']?>user/logout"><span class="icon nalika-unlocked author-log-ic"></span>Log Out</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        <?php } elseif (\app\models\ShopUsers::is_LoggedIn() && \app\models\ShopUsers::is_support()){  ?>
+                                            <div class="header-right-info" style="margin-top: 15px">
+                                                <span style="padding: 3px"><a href="https://icq.im/mr_coder@inbox.ru" class="btn btn-success btn-sm active" role="button" aria-pressed="true">Add on ICQ<a></span>
+                                                <span style="padding: 3px"><a href="https://t.me/fudsender" class="btn btn-info btn-sm active" role="button" aria-pressed="true">Add on Telegram<a></span>
+                                                <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                    <li class="nav-item">
+                                                        <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                            <i class="icon nalika-user"></i>
+                                                            <span class="admin-name">Fud Sender</span>
+                                                        </a>
+                                                        <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                            </li>
+                                                            <li><a href="<?=Yii::$app->params['base_url']?>user/logout"><span class="icon nalika-unlocked author-log-ic"></span>Log Out</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        <?php } ?>
+
+                                    </div>
+
+                                </div>
                             </div>
-                        </a>
-                    </li>
-
-                    <li class="nav-item dropdown pe-2 d-flex align-items-center">
-                        <a href="javascript:;"class="nav-link text-white p-0"id="dropdownMenuButton"data-bs-toggle="dropdown"aria-expanded="false">
-                            <i class="fa fa-user cursor-pointer"></i>
-                        </a>
-                        <?php if(\app\models\ShopUsers::is_buyer() && \app\models\ShopUsers::is_LoggedIn()){?>
-                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"aria-labelledby="dropdownMenuButton">
-                                <li class="mb-2">
-                                    <a class="dropdown-item border-radius-md"href="<?=Yii::$app->params['base_url']?>user-balance/add-balance">
-                                        <div class="d-flex py-1">
-                                            <div class="my-auto">
-                                                <img src="<?=yii::$app->params["base_url"]?>asset_01/img/small-logos/cash.svg"class="avatar avatar-sm  me-3 ">
-                                            </div>
-                                            <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="text-sm font-weight-normal mb-1">
-                                                    <span class="font-weight-bold text-dark">Your Balance  :(<span class="badge badge-primary text-dark"><?=\app\models\WebUsersBalance::check_balance();?></span>) </span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="mb-2">
-                                    <a class="dropdown-item border-radius-md"href="<?=Yii::$app->params['base_url']?>/orders/index">
-                                        <div class="d-flex py-1">
-                                            <div class="my-auto">
-                                                <img src="<?=yii::$app->params["base_url"]?>asset_01/img/small-logos/shopping_cart-blue.svg"class="avatar avatar-sm bg-gradient-dark  me-3 ">
-                                            </div>
-                                            <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="text-sm font-weight-normal mb-1">
-                                                    <span class="font-weight-bold text-dark">Your Order</span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="mb-2">
-                                    <a class="dropdown-item border-radius-md"href="<?=Yii::$app->params['base_url']?>/user/change-password">
-                                        <div class="d-flex py-1">
-                                            <div class="my-auto">
-                                                <img src="<?=yii::$app->params["base_url"]?>asset_01/img/small-logos/ftpassword.svg"class="avatar avatar-sm bg-gradient-dark  me-3 ">
-                                            </div>
-                                            <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="text-sm font-weight-normal mb-1">
-                                                    <span class="font-weight-bold text-dark">Change Password</span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="mb-2">
-                                    <a class="dropdown-item border-radius-md"href="<?=Yii::$app->params['base_url']?>user/logout">
-                                        <div class="d-flex py-1">
-                                            <div class="my-auto">
-                                                <img src="<?=yii::$app->params["base_url"]?>asset_01/img/small-logos/log-out.svg"class="avatar avatar-sm bg-gradient-dark  me-3 ">
-                                            </div>
-                                            <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="text-sm font-weight-normal mb-1">
-                                                    <span class="font-weight-bold text-dark">Log Out</span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        <?php } elseif(\app\models\ShopUsers::is_LoggedIn() && \app\models\ShopUsers::is_seller()){ ?>
-                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"aria-labelledby="dropdownMenuButton">
-                                <li class="mb-2">
-                                    <a class="dropdown-item border-radius-md"href="<?=Yii::$app->params['base_url']?>/orders/index">
-                                        <div class="d-flex py-1">
-                                            <div class="my-auto">
-                                                <img src="<?=yii::$app->params["base_url"]?>asset_01/img/small-logos/shopping_cart-blue.svg"class="avatar avatar-sm bg-gradient-dark  me-3 ">
-                                            </div>
-                                            <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="text-sm font-weight-normal mb-1">
-                                                    <span class="font-weight-bold text-dark">All Order</span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="mb-2">
-                                    <a class="dropdown-item border-radius-md"href="<?=Yii::$app->params['base_url']?>/user/change-password">
-                                        <div class="d-flex py-1">
-                                            <div class="my-auto">
-                                                <img src="<?=yii::$app->params["base_url"]?>asset_01/img/small-logos/ftpassword.svg"class="avatar avatar-sm bg-gradient-dark  me-3 ">
-                                            </div>
-                                            <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="text-sm font-weight-normal mb-1">
-                                                    <span class="font-weight-bold text-dark">Change Password</span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="mb-2">
-                                    <a class="dropdown-item border-radius-md"href="<?=Yii::$app->params['base_url']?>user/logout">
-                                        <div class="d-flex py-1">
-                                            <div class="my-auto">
-                                                <img src="<?=yii::$app->params["base_url"]?>asset_01/img/small-logos/log-out.svg"class="avatar avatar-sm bg-gradient-dark  me-3 ">
-                                            </div>
-                                            <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="text-sm font-weight-normal mb-1">
-                                                    <span class="font-weight-bold text-dark">Log Out</span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        <?php } elseif (\app\models\ShopUsers::is_LoggedIn() && \app\models\ShopUsers::is_support()){  ?>
-                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"aria-labelledby="dropdownMenuButton">
-                                <li class="mb-2">
-                                    <a class="dropdown-item border-radius-md"href="<?=Yii::$app->params['base_url']?>user/logout">
-                                        <div class="d-flex py-1">
-                                            <div class="my-auto">
-                                                <img src="<?=yii::$app->params["base_url"]?>asset_01/img/small-logos/log-out.svg"class="avatar avatar-sm bg-gradient-dark  me-3 ">
-                                            </div>
-                                            <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="text-sm font-weight-normal mb-1">
-                                                    <span class="font-weight-bold text-dark">Log Out</span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        <?php } ?>
-
-                    </li>
-                </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- Mobile Menu start -->
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul class="mobile-menu-nav">
+                                        <li><a data-toggle="collapse" data-target="#Charts" href="#">Smtps <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul class="collapse dropdown-header-top">
+                                                <li><a title="Ionos" href="<?=Yii::$app->params['base_url']?>account/smtp-ionos"><span class="mini-sub-pro">Ionos</span></a></li>
+                                                <li><a title="Rackspace" href="<?=Yii::$app->params['base_url']?>account/smtp-rackspace"> <span class="mini-sub-pro">Rackspace</span></a></li>
+                                                <li><a title="Inbox.lv" href="<?=Yii::$app->params['base_url']?>account/smtp-inboxlv">Inbox.lv</span></a></li>
+                                                <li><a title="GMX" href="<?=Yii::$app->params['base_url']?>account/smtp-gmx"><span class="mini-sub-pro">GMX</span></a></li>
+                                                <li><a title="Office 365" href="<?=Yii::$app->params['base_url']?>account/smtp-office365"><span class="mini-sub-pro">Office 365</span></a></li>
+                                                <li><a title="Strato" href="<?=Yii::$app->params['base_url']?>account/smtp-strato"><span class="mini-sub-pro">Strato</span></a></li>
+                                                <li><a title="Sendgrid" href="<?=Yii::$app->params['base_url']?>account/smtp-sendgrid"><span class="mini-sub-pro">Sendgrid</span></a></li>
+                                                <li><a title="Big Lobe" href="<?=Yii::$app->params['base_url']?>account/smtp-biglobe"><span class="mini-sub-pro">Biglobe</span></a></li>
+                                                <li><a title="All Webmails" href="<?=Yii::$app->params['base_url']?>account/smtps"><span class="mini-sub-pro">All Smtps</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demo" href="#">Webmails <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="demo" class="collapse dropdown-header-top">
+                                                <li><a title="Ionos" href="<?=Yii::$app->params['base_url']?>/account/webmails-ionos"><span class="mini-sub-pro">Ionos</span></a></li>
+                                                <li><a title="Zimbra" href="<?=Yii::$app->params['base_url']?>/account/webmails-zimbra">Zimbra</span></a></li>
+                                                <li><a title="Rackspace" href="<?=Yii::$app->params['base_url']?>/account/webmails-rackspace">Rackspace</span></a></li>
+                                                <li><a title="Strato" href="<?=Yii::$app->params['base_url']?>/account/webmails-starto">Strato</span></a></li>
+                                                <li><a title="T-Online" href="<?=Yii::$app->params['base_url']?>/account/webmails-t-online"><span class="mini-sub-pro">T-Online</span></a></li>
+                                                <li><a title="Kagoya" href="<?=Yii::$app->params['base_url']?>/account/webmails-kagoya"><span class="mini-sub-pro">Kagoya</span></a></li>
+                                                <li><a title="Biglobe JP" href="<?=Yii::$app->params['base_url']?>/account/webmails-biglobejp"><span class="mini-sub-pro">Biglobe JP</span></a></li>
+                                                <li><a title="Aruba" href="<?=Yii::$app->params['base_url']?>/account/webmails-aruba"><span class="mini-sub-pro">Aruba</span></a></li>
+                                                <li><a title="All Webmails" href="<?=Yii::$app->params['base_url']?>/account/webmails"><span class="mini-sub-pro">All Webmails</span></a></li>
+                                            </ul>
+                                        <li><a data-toggle="collapse" data-target="#Chartsmob" href="#">Hosts <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Chartsmob" class="collapse dropdown-header-top">
+                                                <li><a title="Shell" href="<?=Yii::$app->params['base_url']?>/account/shells"><span class="mini-sub-pro">Shell</span></a></li>
+                                                <li><a title="C-Panels" href="<?=Yii::$app->params['base_url']?>/account/cpanel"><span class="mini-sub-pro">C-Panels</span></a></li>
+                                            </ul>
+                                        </li>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#others" href="#">Software & Tools <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="others" class="collapse dropdown-header-top">
+                                                <li><a title="Senders" href="<?=Yii::$app->params['base_url']?>/softwares-tools/senders"><span class="mini-sub-pro">Senders</span></a></li>
+                                                <li><a title="Verifiers" href="<?=Yii::$app->params['base_url']?>/softwares-tools/verifiers"><span class="mini-sub-pro">Verifiers</span></a></li>
+                                                <li><a title="Others" href="<?=Yii::$app->params['base_url']?>/softwares-tools/senders"><span class="mini-sub-pro">Others</span></a></li>
+                                                <li><a title="Alls" href="<?=Yii::$app->params['base_url']?>/softwares-tools/index"><span class="mini-sub-pro">Alls</span></a></li>
+                                            </ul>
+                                        </li>
+
+                                        </li><li><a title="Software & Licence" href="<?=Yii::$app->params['base_url']?>tools-license/index"> <span class="mini-sub-pro">Software & Licence</span></a></li>
+                                        <li><a title="RDP Restart" href="<?=Yii::$app->params['base_url']?>rdp/index"><span class="mini-sub-pro">RDP Restart</span></a></li>
+
+
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-    </nav>
-    <!-- End Navbar -->
+
+
+    </div>
+    <div style="margin-top: 50px;margin-left: 50px">
     <main role="main" class="flex-shrink-0">
         <div class="container">
             <?= Alert::widget() ?>
             <?= $content ?>
         </div>
     </main>
-</main>
-<div class="fixed-plugin">
-    <div class="card shadow-lg">
-        <div class="card-header pb-0 pt-3 ">
-            <div class="float-start">
-                <h5 class="mt-3 mb-0">Argon Configurator</h5>
-                <p>See our dashboard options.</p>
-            </div>
-            <div class="float-end mt-4">
-                <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
-                    <i class="fa fa-close"></i>
-                </button>
-            </div>
-            <!-- End Toggle Button -->
-        </div>
-        <hr class="horizontal dark my-1">
-        <div class="card-body pt-sm-3 pt-0 overflow-auto">
-            <!-- Sidebar Backgrounds -->
-            <div>
-                <h6 class="mb-0">Sidebar Colors</h6>
-            </div>
-            <a href="javascript:void(0)"class="switch-trigger background-color">
-                <div class="badge-colors my-2 text-start">
-                    <span class="badge filter bg-gradient-primary active"data-color="primary"onclick="sidebarColor(this)"></span>
-                    <span class="badge filter bg-gradient-dark"data-color="dark"onclick="sidebarColor(this)"></span>
-                    <span class="badge filter bg-gradient-info"data-color="info"onclick="sidebarColor(this)"></span>
-                    <span class="badge filter bg-gradient-success"data-color="success"onclick="sidebarColor(this)"></span>
-                    <span class="badge filter bg-gradient-warning"data-color="warning"onclick="sidebarColor(this)"></span>
-                    <span class="badge filter bg-gradient-danger"data-color="danger"onclick="sidebarColor(this)"></span>
-                </div>
-            </a>
-            <!-- Sidenav Type -->
-            <div class="mt-3">
-                <h6 class="mb-0">Sidenav Type</h6>
-                <p class="text-sm">Choose between 2 different sidenav types.</p>
-            </div>
-            <div class="d-flex">
-                <button class="btn bg-gradient-primary w-100 px-3 mb-2 active me-2"data-class="bg-white"onclick="sidebarType(this)">White</button>
-                <button class="btn bg-gradient-primary w-100 px-3 mb-2"data-class="bg-default"onclick="sidebarType(this)">Dark</button>
-            </div>
-            <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p>
-            <!-- Navbar Fixed -->
-            <div class="d-flex my-3">
-                <h6 class="mb-0">Navbar Fixed</h6>
-                <div class="form-check form-switch ps-0 ms-auto my-auto">
-                    <input class="form-check-input mt-1 ms-auto"type="checkbox"id="navbarFixed"onclick="navbarFixed(this)">
-                </div>
-            </div>
-            <hr class="horizontal dark my-sm-4">
-            <div class="mt-2 mb-5 d-flex">
-                <h6 class="mb-0">Light / Dark</h6>
-                <div class="form-check form-switch ps-0 ms-auto my-auto">
-                    <input class="form-check-input mt-1 ms-auto"type="checkbox"id="dark-version"onclick="darkMode(this)">
-                </div>
-            </div>
-            <a class="btn bg-gradient-dark w-100"href="https://www.creative-tim.com/product/argon-dashboard">Free Download</a>
-            <a class="btn btn-outline-dark w-100"href="https://www.creative-tim.com/learning-lab/bootstrap/license/argon-dashboard">View documentation</a>
-            <div class="w-100 text-center">
-                <a class="github-button"href="https://github.com/creativetimofficial/argon-dashboard"data-icon="octicon-star"data-size="large"data-show-count="true"aria-label="Star creativetimofficial/argon-dashboard on GitHub">Star</a>
-                <h6 class="mt-3">Thank you for sharing!</h6>
-                <a href="https://twitter.com/intent/tweet?text=Check%20Argon%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fargon-dashboard"class="btn btn-dark mb-0 me-2"target="_blank">
-                    <i class="fab fa-twitter me-1"aria-hidden="true"></i> Tweet
-                </a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/argon-dashboard"class="btn btn-dark mb-0 me-2"target="_blank">
-                    <i class="fab fa-facebook-square me-1"aria-hidden="true"></i> Share
-                </a>
-            </div>
-        </div>
     </div>
-</div>
-<script>
-    var base_url= "<?= Yii::$app->params['base_url'] ?>"
-</script>
-<!--   Core JS Files   -->
-<script src="<?=yii::$app->params["base_url"]?>asset_01/js/core/popper.min.js"></script>
-<script src="<?=yii::$app->params["base_url"]?>asset_01/js/core/bootstrap.min.js"></script>
-<script src="<?=yii::$app->params["base_url"]?>asset_01/js/plugins/perfect-scrollbar.min.js"></script>
-<script src="<?=yii::$app->params["base_url"]?>asset_01/js/plugins/smooth-scrollbar.min.js"></script>
-<script src="<?=Yii::$app->params['base_url']?>/asset/js/buytools.js?<?php echo date('Y-m-d_H:i:s'); ?>"></script>
-<script src="<?=Yii::$app->params['base_url']?>/asset/js/buyaccounts.js?<?php echo date('Y-m-d_H:i:s'); ?>"></script>
-<script src="<?=Yii::$app->params['base_url']?>/asset/js/reporting.js?<?php echo date('Y-m-d_H:i:s'); ?>"></script>
-<script src="<?=Yii::$app->params['base_url']?>/asset/js/restpass.js?<?php echo date('Y-m-d_H:i:s'); ?>"></script>
 
-<script>
-    var win = navigator.platform.indexOf('Win') > -1;
-    if (win && document.querySelector('#sidenav-scrollbar')) {
-        var options = {
-            damping: '0.5'
-        }
-        Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
-    }
-</script>
-<!-- Github buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="<?=yii::$app->params["base_url"]?>asset_01/js/argon-dashboard.min.js?v=2.0.4"></script>
-
-
-<?php $this->endBody() ?>
+    <!-- jquery
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/bootstrap.min.js"></script>
+    <!-- wow JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/wow.min.js"></script>
+    <!-- price-slider JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/owl.carousel.min.js"></script>
+    <!-- sticky JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/jquery.sticky.js"></script>
+    <!-- scrollUp JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/jquery.scrollUp.min.js"></script>
+    <!-- mCustomScrollbar JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/metisMenu/metisMenu.min.js"></script>
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/metisMenu/metisMenu-active.js"></script>
+    <!-- sparkline JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/sparkline/jquery.charts-sparkline.js"></script>
+    <!-- calendar JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/calendar/moment.min.js"></script>
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/calendar/fullcalendar.min.js"></script>
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/calendar/fullcalendar-active.js"></script>
+    <!-- float JS
+        ============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/flot/jquery.flot.js"></script>
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/flot/jquery.flot.resize.js"></script>
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/flot/curvedLines.js"></script>
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/flot/flot-active.js"></script>
+    <!-- plugins JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/plugins.js"></script>
+    <!-- main JS
+		============================================ -->
+    <script src="<?=yii::$app->params["base_url"]?>asset_1/js/main.js"></script>
+    <?php $this->endBody() ?>
     </body>
 </html>
 <?php $this->endPage() ?>
